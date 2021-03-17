@@ -11,7 +11,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#logo{
+    padding-top: 30px;
+}
 #navigation{
+    padding-top: 50px;
     color: #4f9ae0;
     font-family:sans-serif;
 }
@@ -29,7 +33,7 @@ body {
     text-transform: uppercase;
 }
 #logo2{
-    padding-bottom: -40px;
+    padding-top: 30px;
 }
 #text{
     color: #4f9ae0;
@@ -48,7 +52,13 @@ body {
     /* wyśrodkowanie tekstu w <p> */
     text-align: center;
 }
+#medium{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aaa;}
 #circles {
+    padding-top: 45px;
     display: flex;
     justify-content: center;
 }
@@ -86,6 +96,15 @@ body {
 }
 #circle3:hover {
     opacity: 0.85;
+}
+#fotter_menu{
+    display: flex;
+font-style:inherit;
+justify-content:space-evenly;
+font-size: 20px;
+font-family:sans-serif;
+font-weight: 900;
+border-bottom: 1px solid #aaa;
 }
 #footer {
     background-color: #232d2f;
