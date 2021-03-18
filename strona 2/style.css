@@ -15,8 +15,8 @@ body {
     padding-top: 30px;
 }
 #navigation{
+    padding: ;
     padding-top: 50px;
-    color: #4f9ae0;
     font-family:sans-serif;
 }
 #header {
@@ -29,6 +29,7 @@ body {
 #header a {
     /* usunięcie podkreśleń */
     text-decoration: none;
+    color: #4f9ae0;
     /* kapitalizacja */
     text-transform: uppercase;
 }
@@ -51,16 +52,6 @@ body {
 #about-left p {
     /* wyśrodkowanie tekstu w <p> */
     text-align: center;
-}
-#circle_text{
-    display: flex;
-    font-style:inherit;
-    color:maroon;
-    justify-content:space-evenly;
-    font-size: 20px;
-    font-family:sans-serif;
-    font-weight: 900;
-    
 }
 #medium{
     display: flex;
@@ -107,14 +98,39 @@ body {
 #circle3:hover {
     opacity: 0.85;
 }
+#tekstwkole1 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+#tekstwkole2 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+#tekstwkole3 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
 #fotter_menu{
-    display: flex;
+    padding-top:20px;
+    display:flex;
 font-style:inherit;
 justify-content:space-evenly;
+list-style-type: none;
 font-size: 20px;
 font-family:sans-serif;
-font-weight: 900;
-border-bottom: 1px solid #aaa;
+list-style-type: none;
+}
+#pod{
+    border-bottom: 1px solid #aaa;
 }
 #footer {
     background-color: #232d2f;
@@ -124,4 +140,11 @@ border-bottom: 1px solid #aaa;
     background-repeat: repeat-x;
     margin-top: 40px;
     height: 200px;
+}
+#footer_text{
+    margin: 20px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
 }
