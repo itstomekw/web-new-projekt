@@ -129,6 +129,9 @@ font-size: 20px;
 font-family:sans-serif;
 list-style-type: none;
 }
+ul{
+    list-style-type: none;
+}
 #pod{
     border-bottom: 1px solid #aaa;
 }
