@@ -1,0 +1,135 @@
+
+#background
+{
+    background-image: url('tlo.png');
+    
+    
+}
+#logo{
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+#text_logo{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.521);
+}
+#section {
+    width: 500px;
+    padding-top: 30px;
+    margin-left:auto ;
+    margin-right: auto;
+    justify-content: center;
+}
+#jpg1{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg2{
+    background-color:white;  
+    float: left;
+    padding: 9px;
+}
+#jpg3{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg4{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg5{
+    clear: both;
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg6{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg7{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg8{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg9{
+    clear: both;
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg10{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg11{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg12{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg13{
+    clear: both;
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg14{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg15{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#jpg16{
+    background-color:white;
+    float: left;
+    padding: 9px;
+}
+#texty{
+    width: 500px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+#text2{
+    clear: both;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.521);
+    padding-top: 30px;
+    border-bottom:solid 1px;
+    
+}
+#text3{
+    
+    padding-top: 20px;
+    color:rgba(255, 255, 255, 0.521);
+    text-align: center;
+}
+#zdj{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#copy{
+    color:rgba(255, 255, 255, 0.329);
+    text-align: center;
+    padding-bottom: 50px;
+}
