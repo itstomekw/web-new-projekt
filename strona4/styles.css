@@ -1,0 +1,15 @@
+#menu{
+    background-color:rgb(1, 1, 102) ;
+}
+#menunapis{
+    color: blue;
+    text-align: right;
+}
+#compose{
+    text-align: center;
+    color: white;
+    margin: 10px; 
+}
+#opcje{
+    color: white;
+}
