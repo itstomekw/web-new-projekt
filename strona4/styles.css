@@ -1,15 +1,70 @@
+#srodek{
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
 #menu{
-    background-color:rgb(1, 1, 102) ;
+    background-color:rgb(44, 44, 63) ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #menunapis{
+    margin-right: 10px;
     color: blue;
     text-align: right;
 }
 #compose{
     text-align: center;
     color: white;
+    
     margin: 10px; 
 }
 #opcje{
     color: white;
+}
+#lab{
+color: rgb(67, 69, 199);
+}
+#labest{
+    color: white;
+}
+#mail{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#okno1{
+    border-bottom:solid 1px;
+    
+}
+#okno2{
+    border-bottom:solid 1px;
+}
+#okno3{
+    border-bottom:solid 1px;
+}
+#okno4{
+    border-bottom:solid 1px;
+}
+#okno5{
+    
+    border-bottom:solid 1px;
+}
+#okno6{
+    border-bottom:solid 1px;
+}
+#okno7{
+    border-bottom:solid 1px;
+    float: left;
+}
+#name{
+    color: rgb(114, 114, 106);
+    font-weight: bold;
+    float: left;
+}
+#title{
+    font-weight: 750;
+    float: left;
+}
+#message{
+    float: left;
 }
