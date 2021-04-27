@@ -60,11 +60,17 @@ color: rgb(67, 69, 199);
     color: rgb(114, 114, 106);
     font-weight: bold;
     float: left;
+    clear: both;
 }
 #title{
     font-weight: 750;
     float: left;
+    clear: both;
 }
 #message{
+    clear: both;
     float: left;
+}
+#zdj{
+    clear: both;
 }
