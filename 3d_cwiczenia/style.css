@@ -1,8 +1,3 @@
-
-
-
-
-
 body {
   font-family: "Unica One";
   font-size: 1.5em;
@@ -17,8 +12,9 @@ body {
   }
 #text1 {
 width: 700px;
-padding-left: 50%;s
+padding-left: 50%;
 padding-right: 50%;
+
 }
 .nav {
   text-align: center;
