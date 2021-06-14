@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 body {
   font-family: "Unica One";
   font-size: 1.5em;
   background: #000000;
+=======
+
+
+
+
+
+body {
+  font-family: "Unica One";
+  font-size: 1.5em;
+  background: #f2f2f2;
+>>>>>>> c6001bf9703e72d4cddff3ed6768c1b9a3b5a06d
   margin: 0 auto;
   text-align: center;
   text-shadow: 0 1px 0 white; }
@@ -11,10 +23,16 @@ body {
       padding-bottom: 100px;
   }
 #text1 {
+<<<<<<< HEAD
 width: 3em;
 padding-left: 50%;
 padding-right: 50%;
 
+=======
+width: 700px;
+padding-left: 50%;s
+padding-right: 50%;
+>>>>>>> c6001bf9703e72d4cddff3ed6768c1b9a3b5a06d
 }
 .nav {
   text-align: center;
@@ -67,7 +85,10 @@ padding-right: 50%;
   margin-left:-45px;
 }
 
+<<<<<<< HEAD
 @media only screen and(min-width:768px)
 {
 
 }
+=======
+>>>>>>> c6001bf9703e72d4cddff3ed6768c1b9a3b5a06d
