@@ -25,7 +25,7 @@ nav{
   display: none;
 }
 
-.container {
+.container1{
   
   place-content: space-between;
 }
@@ -42,12 +42,19 @@ ul{
   list-style-type: none;
 }
 
-.front{
-text-align: center;
-}
+
 
 .front-img{
   width: 100%;
 }
 
+.text-front{}
+
+.container2{
+  justify-content: center;
+  text-align: center;
+}
+.money-text{
+  place-content: space-between;
+}
 
