@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" href="style.css">
 
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
 <title>Na Ekologi Można Zarabiać</title>
 </head>
 <body>  
@@ -19,11 +21,11 @@
 
       <img id="mobile-cta" class="mobile-menu" src="menu.svg" alt="Open Navigation">
 
-      <nav>
+      <nav class="test1">
         <img id="mobile-exit" class="mobile-menu-exit"  src="exit.svg" alt="Close Navigation">
 
         <ul class="primary-nav">
-          <li><a href="#">Home</a></li>
+          <li><a href="link">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Contact</a></li>
@@ -39,7 +41,7 @@
 
   <section class="front">
     <div class="container2">
-      <p class="subhead"> <h1>Tak się składa, że na ekologi sie zarabia.</h1></p>
+      <p class="subhead"> <h1>Tak Się Składa, Że Na Ekologi Się Zarabia.</h1></p>
      <img src="BeFunky-Collage-1200x521.jpg" class="front-img" alt="first-foto">
      <p class="text-front-d">Nasza firma specializuje się w skupowaniu plastiku i przetwarzaniem go na materiały 
        do butowy domów. Skpupujemy plastik od małych dostawców oraz osób prywatnych.</p>
@@ -79,12 +81,21 @@
          <input type="text" id="name" name="name">
 
           <label for="message">Wiadomość</label>
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="Masz pytanie? Napisz do nas"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" ></textarea>
 
           <input type="submit" class="send-message-cat" value="Wyślij wiadomość">
         </form>
     </div>
   </section>
+
+ 
+  <script type="text/javascript">
+        $(document).ready(function(){
+         $('.mobile-menu').click(function(){
+          $('.test1').toggleClass('menu-btn');
+         })
+        })
+  </script>
 
 
   <div class="ph-line-nav nav">

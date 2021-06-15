@@ -22,7 +22,7 @@ span {
   color: green;
 }
 nav{
-  /*display: none;*/
+  display: none;
 }
 
 .container1{
@@ -87,14 +87,18 @@ input[type="text"], textarea{
   border-radius: 5em;
 
 }
+.menu-btn{
+  display: block;
+}
 nav{
   position: fixed;
   z-index: 999;
-  width: 66%;
+  width: 100%;
   right: 0;
   top: 0;
   background: #20272e;
   padding: 1em;
+  margin-top: 150px;
 }
 ul.primary-nav {
   margin-top: 5em;
@@ -107,6 +111,13 @@ a{
   font-size: 1.3em;
   text-align: right;
 }
-&:hover{
-  font-weight: bold;
-} 
+.mobile-menu{
+  display: block;
+}
+@media (max-width: 768px) {
+
+  .mobile-menu{
+    display: none!important;
+  }
+  
+}
