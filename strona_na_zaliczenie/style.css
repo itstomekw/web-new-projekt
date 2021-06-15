@@ -31,7 +31,7 @@ nav{
 }
 
 .mobile-menu{
-  display: flex;
+  display: none;
   cursor: pointer;
 }
 
@@ -111,13 +111,10 @@ a{
   font-size: 1.3em;
   text-align: right;
 }
-.mobile-menu{
-  display: block;
-}
 @media (max-width: 768px) {
 
   .mobile-menu{
-    display: none!important;
+    display:flex;
   }
   
 }
