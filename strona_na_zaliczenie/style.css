@@ -26,11 +26,12 @@ nav{
 }
 
 .container {
-  display: flex;
+  
   place-content: space-between;
 }
 
 .mobile-menu{
+  display: flex;
   cursor: pointer;
 }
 a{
