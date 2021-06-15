@@ -5,16 +5,16 @@ body {
   background: #000000;
 =======
 
-
-
-
-
 body {
   font-family: "Unica One";
   font-size: 1.5em;
   background: #f2f2f2;
+<<<<<<< HEAD
 >>>>>>> c6001bf9703e72d4cddff3ed6768c1b9a3b5a06d
   margin: 0 auto;
+=======
+  margin: 0;
+>>>>>>> 3a6419630b536b852a5c5d6cb2ff96ec12d4dd91
   text-align: center;
   text-shadow: 0 1px 0 white; }
 
@@ -23,6 +23,7 @@ body {
       padding-bottom: 100px;
   }
 #text1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 width: 3em;
 padding-left: 50%;
@@ -33,6 +34,10 @@ width: 700px;
 padding-left: 50%;s
 padding-right: 50%;
 >>>>>>> c6001bf9703e72d4cddff3ed6768c1b9a3b5a06d
+=======
+width: 13em;
+display: flex;
+>>>>>>> 3a6419630b536b852a5c5d6cb2ff96ec12d4dd91
 }
 .nav {
   text-align: center;
