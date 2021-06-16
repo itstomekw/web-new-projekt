@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Lavalike css-only menu effect" />
+<meta name="keywords" content="css-only menu hover effect transitions" />
+<meta name="author" content="PeHaa for PEPSized" />
+<link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Na Ekologi Można Zarabiać</title>
+</head>
+<body>  
+
+  <div class="navbar">
+    <div class="container1">
+      <a class="logo" href="#">Eko<span>Money</span></a>
+
+      <img id="mobile-cta" class="mobile-menu" src="menu.svg" alt="Open Navigation">
+
+      <nav class="test1">
+      
+        <ul class="primary-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section class="nasze-dokonania">
+        <div class="container2">
+          <p><h1>Nasze Dotychczasowe Dokonania</h1></p>
+          <img src="gf-YyTi-kepJ-KjBC_mieszkanie-w-kontenerze-664x0-nocrop.jpg" class="nasze-dokonania-img" alt="dom">
+          <p>Oto przykład jednej z konstukcji wykonanej z naszych materiałów, bez infomracji o tym, że jest on wykonany z śmieci nikt by o tym nawet nie pomyślał
+            Znaczącym argumentem dlaczego dużo frim decyduje się na wukorzysytwanie naszych produktów jest to, że <b>cena takiej kontrukcji jest o 40% tańsza</b> niż
+              ten sam lecz z innych materiałów dostępnych na rynku materiałów. Co sprawia, że <b> oszczedność nawet do 120tyś. złotych</b>
+          </p>
+        </div>
+      </section>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+         $('.mobile-menu').click(function(){
+          $('.test1').toggleClass('menu-btn');
+         })
+        })
+  </script>
+    
+</body>
+</html>

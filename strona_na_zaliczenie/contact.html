@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Lavalike css-only menu effect" />
+<meta name="keywords" content="css-only menu hover effect transitions" />
+<meta name="author" content="PeHaa for PEPSized" />
+<link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Na Ekologi Można Zarabiać</title>
+</head>
+<body>  
+
+  <div class="navbar">
+    <div class="container1">
+      <a class="logo" href="#">Eko<span>Money</span></a>
+
+      <img id="mobile-cta" class="mobile-menu" src="menu.svg" alt="Open Navigation">
+
+      <nav class="test1">
+      
+        <ul class="primary-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <section class="contact-section">
+        <div class="container2">
+          <h1>Contact</h1>
+        </div>
+        <div class="contact-part">
+            <form action="">
+              <label for="name">Imie</label>
+             <input type="text" id="name" name="name">
+    
+              <label for="message">Wiadomość</label>
+              <textarea name="message" id="message" cols="30" rows="10" ></textarea>
+    
+              <input type="submit" class="send-message-cat" value="Wyślij wiadomość">
+            </form>
+        </div>
+      </section>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+         $('.mobile-menu').click(function(){
+          $('.test1').toggleClass('menu-btn');
+         })
+        })
+  </script>
+    
+</body>
+</html>
