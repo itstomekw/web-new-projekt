@@ -32,7 +32,6 @@ nav{
 }
 
 .mobile-menu{
-  margin: -.3em;
   display: flex;
   cursor: pointer;
 }
