@@ -1,136 +1,201 @@
-/* ---- reset ------*/
-html, body, div, a {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline; }
-  
-  html {
-    line-height: 1; }
-  
-  
-  /* --- basic styles ----*/
-  
-  body {
-    font-family: "Unica One";
-    font-size: 1.5em;
-    background: #f2f2f2;
-    text-shadow: 0 1px 0 white; }
-  
-  /* --- for all three examples ----*/
-  
-  .nav {
-    text-align: center;
-    overflow: hidden;
-    margin: 2em auto;
-    width: 480px;
-    position: relative; }
-    .nav a {
-      display: block;
-      position: relative;
-      float: left;
-      padding: 1em 0 2em;
-      width: 25%;
-      text-decoration: none;
-      color: #393939;
-      -webkit-transition: .7s;
-      -moz-transition: .7s;
-      -o-transition: .7s;
-      -ms-transition: .7s;
-      transition: .7s; }
-      .nav a:hover {
-        color: #c6342e; }
-  
-  .effect {
-    position: absolute;
-    left: -12.5%;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out; }
-  
-    .nav a:nth-child(1):hover ~ .effect {
-      left: 12.5%; }
-    .nav a:nth-child(2):hover ~ .effect {
-      left: 37.5%; }
-    .nav a:nth-child(3):hover ~ .effect {
-      left: 62.5%; }
-    .nav a:nth-child(4):hover ~ .effect {
-      left: 87.5%; }
-  
-  /* ----- line example -----*/
-  
-  .ph-line-nav .effect {
-    width: 90px;
-    height: 2px;
-    bottom: 36px;
-    background: #c6342e;
-    box-shadow: 0 1px 0 white; 
-    margin-left:-45px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: "poppins";
+  font-size: 1.5em;
+  background: #f2f2f2;
+  text-shadow: 0 1px 0 white; 
+}
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.logo {
+  height: 2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.6em;
+}
+
+span {
+  color: green;
+}
+nav{
+  display: none;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-menu{
+  display: flex;
+  cursor: pointer;
+}
+.secondary-nav{
+  margin-top: -.1em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+.front-img{
+  width: 100%;
+}
+
+.text-front{}
+
+.container2{
+  margin-top: 5em;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5em;
+}
+.nasze-dokonania-img{
+  height: 8em;
+  border-radius: 25px;
+}
+.money-text{
+  place-content: space-between;
+}
+
+.contact-part{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+label{
+  display: block;
+  font-size: 1.2em;
+}
+input[type="text"], textarea{
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+.send-message-cat{
+  background-color: green;
+  width: 100%;
+  padding: .8em;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+
+}
+.menu-btn{
+  display: block;
+}
+nav{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: #20272e;
+  padding: 1em;
+  margin-top: 150px;
+}
+ul.primary-nav {
+  margin-top: 5em;
+}
+a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+@media (min-width: 1450px) {
+
+  .mobile-menu{
+    display:none;
   }
-  
-  /* ----- dot example -----*/
-  
-  .ph-dot-nav:after {
-    content: "";
-    display: block;
-    position: absolute;
+  body{
+    margin: 0 15%;
+  }
+  .navbar .container1 .container2{
+    display: grid;
+    grid-template-columns: 180px auto;
+  }
+  .navbar{
+    height: 7em;
+  }
+  nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: none;
+    height: auto;
+    position:absolute;
     width: 100%;
-    height: 1px;
-    background: #c6342e;
-    bottom: 40px; }
-  .ph-dot-nav a:after {
-    content: "";
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    bottom: 38px;
-    left: 50%;
-    margin-left: -2px; 
-    background: #c6342e;
-    border-radius: 100%; }
-  .ph-dot-nav .effect {
-    width: 10px;
-    height: 10px;
-    bottom: 36px; 
-    margin-left: -5px;
-    background: #c6342e;
-    border-radius: 100%; }
-  
-  /* ----- heart example -----*/
-  
-  .ph-heart-nav .effect, .ph-heart-nav a:after, .ph-heart-nav a:before {
-    background: url('http://pepsized.com/wp-content/uploads/2013/01/llldemo/images/heart.png') no-repeat; }
-  .ph-heart-nav .effect {
-    position: absolute;
-    bottom: 26px;
-    background-position: 0 0;
-    height: 8px;
-    width: 62px; 
-    margin-left:-31px; }
-  
-  .ph-heart-nav a:before {
-    content: "";
+    padding: 0;
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 3.5em;
+  }
+  ul{
+    display: flex;
+  }
+  a{
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+  ul.primary-nav{
+    margin:0;
+  }
+  li.current a{
+    font-weight:bold;
+  }
+  li.sign-up a {
+    color: green;
+    border: 3px solid green;
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -.2em;
+  }
+  .front-img{
+    width: 70%;
+  }
+  label{
     display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    background-position: -62px 0;
-    height: 20px;
-    width: 11px;
-    margin-left: -11px; }
-  
-  .ph-heart-nav a:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    z-index: 1;
-    background-position: -73px 0;
-    height: 20px;
-    width: 11px; }
-  
+    font-size: 1em;
+  }
+  input[type="text"], textarea{
+    width: 50%;
+    padding: 2em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  .send-message-cat{
+    background-color: green;
+    width: 50%;
+    padding: .8em;
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+  }
+}
+@media (min-width: 1450px){
+
+}
