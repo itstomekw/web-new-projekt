@@ -31,7 +31,7 @@ nav{
 }
 
 .mobile-menu{
-  display: none;
+  display: flex;
   cursor: pointer;
 }
 
@@ -111,10 +111,75 @@ a{
   font-size: 1.3em;
   text-align: right;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
   .mobile-menu{
-    display:flex;
+    display:none;
   }
-  
+  body{
+    margin-left: 15%;
+    width:70%;
+    margin-right: 15%;
+  }
+  .navbar .container1 .container2{
+    display: grid;
+    grid-template-columns: 180px auto;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  ul{
+    display: flex;
+  }
+  a{
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+  ul.primary-nav{
+    margin:0;
+  }
+  li.current a{
+    font-weight:bold;
+  }
+  li.sign-up a {
+    color: green;
+    border: 3px solid green;
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -.2em;
+  }
+  .front-img{
+    width: 70%;
+  }
+  label{
+    display: block;
+    font-size: 1em;
+  }
+  input[type="text"], textarea{
+    width: 50%;
+    padding: 2em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  .send-message-cat{
+    background-color: green;
+    width: 50%;
+    padding: .8em;
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+  }
 }
