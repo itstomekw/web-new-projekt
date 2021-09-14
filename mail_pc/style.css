@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .menu {
+    height: 1200px;
+    width: 150px;
+    background-color: #080877;
+  }
+  
+  .menu .b1 {
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 15px;
+    width: 8em;
+    background-color: #00c3ff;
+    cursor: pointer;
+  }
+  
+  .menu button {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .menu .list {
+    margin-left: -1em;
+  }
+  
+  .menu .list ul {
+    list-style-type: none;
+  }
+  
+  .menu .list li {
+    color: white;
+    margin-top: 1em;
+  }
+  
+  .menu h5 {
+    color: #056eaa;
+    margin-left: 2em;
+  }
+  
+  .menu .list2 ul {
+    list-style-type: square;
+    color: white;
+  }
+  
+  #mail-list {
+    background-color: white;
+    width: 500px;
+    height: 1200px;
+    border: lightgray 1px solid;
+    margin: 0;
+  }
+  
+  #m1, #m2, #m3, #m4, #m5, #m6, #m7 {
+    text-align: left;
+    background-color: white;
+    border-bottom: solid 1px #afaeae;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #m1 {
+    background-color: #f1ecec;
+  }
+  
+  #m2, #m3 {
+    border-left: #0099ff 5px solid;
+  }
+  
+  #m8 {
+    text-align: left;
+    background-color: white;
+    border-bottom: solid 1px #afaeae;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  img {
+    border-radius: 10%;
+    margin-right: 8px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #p1, #p2, #p3, #p4, #p5, #p6, #p7 {
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 21px;
+    margin-bottom: 0;
+  }
+  
+  #pp1 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  #ppp1 {
+    font-size: 0.9em;
+  }
+  
+  #n1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  
+  #nn1 {
+    margin-top: 0;
+  }
+  
+  .text {
+    width: 1270px;
+  }
+  
+  .text .ali {
+    margin-left: 1em;
+    border-bottom: 1px solid gray;
+  }
+  
+  .text .ali h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .text .ali p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -1em;
+  }
+  
+  .text .ali .s1 {
+    color: #008cff;
+  }
+  
+  .text .ali .s2 {
+    color: gray;
+  }
+  
+  .text .buttons {
+    margin-top: -4em;
+    margin-right: 2em;
+    float: right;
+  }
+  
+  .text button {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 0.5em;
+    margin-right: 2em;
+    width: 6em;
+    cursor: pointer;
+  }
